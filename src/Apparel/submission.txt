@@ -1,0 +1,26 @@
+The Apparel test file is a CSV file in the same format as the training set, but with omitted class labels.
+Class labels won't be provided. Those will be used to test your predictions.
+The first row in the test file is the header.
+The sample test file would look like the following.
+    pixel1,pixel2,pixel3, ... ,pixel784
+    0,0,0,0,0,0,1,1,0,0,21,153,100,88,81,130,...,156
+    0,0,0,0,0,0,1,0,0,0,12,111,32,10,5,79,34,...,0
+    .
+    .
+    .
+
+Submission Instructions:
+    - Submit a CSV file containing only the predicted class labels. The file should not contain header
+    - The order of the predicted labels should be in the same order as the test samples are
+    - Name the prediction CSV file as <roll number>_apparel_prediction.csv e.g. 201825632_apparel_prediction.csv
+
+Sample submitted file content:
+    4
+    5
+    0
+    0
+    1
+    0
+    .
+    .
+    .
